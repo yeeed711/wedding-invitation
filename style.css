@@ -1,13 +1,13 @@
 @import url("https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css");
 
-@keyframes wind {
+/* @keyframes wind {
   0% {
     transform: rotate(-10deg);
   }
   100% {
     transform: rotate(10deg);
   }
-}
+} */
 
 @keyframes dugeen {
   0% {
@@ -18,15 +18,15 @@
   }
 }
 
-@keyframes swing {
+/* @keyframes swing {
   0% {
     transform: rotate(-3deg);
   }
   100% {
     transform: rotate(3deg);
   }
-}
-
+} */
+/* 
 @keyframes dance {
   0% {
     transform: skew(-2deg);
@@ -34,7 +34,7 @@
   100% {
     transform: skew(2deg);
   }
-}
+} */
 
 body,
 ul,
@@ -97,17 +97,16 @@ section {
 section.cover {
   padding: 0;
   box-sizing: border-box;
-  background-color: #6aa890;
   height: 100vh;
   background-position: center;
   background-size: cover;
-  background-image: url(cover.png);
+  background-image: url(./img/7.jpg);
   position: relative;
   z-index: 9999;
   overflow: hidden;
 }
 
-.green {
+/* .green {
   display: none;
   position: fixed;
   width: 30%;
@@ -115,19 +114,19 @@ section.cover {
   animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-}
+} */
 
-.green-top {
+/* .green-top {
   left: 0;
   top: 0;
   transform-origin: left top;
-}
+} */
 
-.green-bottom {
+/* .green-bottom {
   right: 0;
   bottom: 0;
   transform-origin: right bottom;
-}
+} */
 
 .date h1 {
   font-size: 2.2rem;
@@ -135,7 +134,8 @@ section.cover {
 
 .date p {
   font-size: 0.8rem;
-  color: #8854a2;
+  color: #d95959;
+  /* 보라색 맘에안듬 뭐로바꾸지? */
 }
 
 .date-green {
@@ -166,7 +166,7 @@ section.cover {
 }
 
 .date-calendar table td.dday {
-  color: #4da088;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -183,14 +183,18 @@ section.cover {
   bottom: 0;
   width: 1.5rem;
   height: 1.5rem;
-  background-color: white;
+  background-color: #d95959;
   z-index: -1;
   margin: auto;
   border-radius: 50%;
 }
 
+.weddinghall p {
+  padding-bottom: 10px;
+}
+
 .normal h1 {
-  color: #8854a2;
+  color: #794000;
   margin-bottom: 2rem;
   font-size: 1.4rem;
   position: relative;
@@ -216,6 +220,7 @@ section.cover {
   margin-bottom: 3rem;
 }
 
+/* 여기가 네브 */
 .nav {
   font-size: 1rem;
   margin: 2rem 0;
@@ -263,9 +268,6 @@ section.cover {
   background-color: #00a44a;
 }
 
-.weddinghall {
-}
-
 .weddinghall-title {
   font-size: 1.4rem;
   margin-bottom: 1rem;
@@ -273,280 +275,6 @@ section.cover {
 
 .weddinghall-time {
   font-size: 0.8em;
-}
-
-.map {
-  display: block;
-  margin: 2rem 0;
-}
-
-.welcome {
-  padding-top: 77.77777777%;
-  width: 100%;
-  position: relative;
-  text-align: center;
-}
-
-.welcome-cover {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
-}
-
-.welcome-title {
-  width: 50%;
-  height: auto;
-  margin: 1rem auto;
-  display: block;
-}
-
-.welcome-people {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 10%;
-  margin: 0 10%;
-  border-radius: 0 0 50% 50%;
-  overflow: hidden;
-}
-
-.welcome-people-image {
-  width: 100%;
-  height: auto;
-  animation-name: swing;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: center bottom;
-}
-
-.cover-people {
-}
-
-.cover-bottom {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding-top: 50%;
-  background-image: url(cover-bottom.png);
-  background-size: cover;
-}
-
-.cover-bottom-tree {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 80%;
-}
-
-.cover-bottom-people {
-  width: 30%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 75%;
-  margin: auto;
-  animation-name: dance;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-  transform-origin: center bottom;
-}
-
-.side {
-  width: 35%;
-  position: absolute;
-  bottom: 65%;
-  padding-top: 50%;
-}
-
-.side img {
-  position: absolute;
-  top: 0;
-  animation-name: swing;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-.side-a img {
-  left: -5%;
-}
-
-.side-b img {
-  right: -5%;
-}
-
-.side-a {
-  left: 0;
-}
-.side-b {
-  right: 0;
-}
-
-.side-a img.type-a {
-  transform-origin: left bottom;
-}
-.side-a img.type-b {
-  animation-direction: alternate-reverse;
-  transform-origin: left bottom;
-}
-
-.side-b img.type-a {
-  transform-origin: right bottom;
-}
-.side-b img.type-b {
-  animation-direction: alternate-reverse;
-  transform-origin: right bottom;
-}
-
-section.last {
-  padding: 3rem;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cbd8a9+100 */
-  background: #eeeeee; /* Old browsers */
-  background: -moz-linear-gradient(
-    top,
-    #eeeeee 0%,
-    #cbd8a9 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    top,
-    #eeeeee 0%,
-    #cbd8a9 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #eeeeee 0%,
-    #cbd8a9 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cbd8a9',GradientType=0 ); /* IE6-9 */
-}
-
-.ball {
-  position: absolute;
-  z-index: 99999;
-  width: 2%;
-  padding-top: 2%;
-  border-radius: 50%;
-  animation-name: dugeen;
-  animation-duration: 0.5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-.ball.l1 {
-  animation-direction: alternate-reverse;
-}
-.ball.l2 {
-  animation-direction: alternate-reverse;
-}
-.ball.l3 {
-}
-.ball.l4 {
-  animation-direction: alternate-reverse;
-}
-.ball.l5 {
-}
-.ball.l6 {
-  animation-direction: alternate-reverse;
-}
-
-.ball-orange {
-  background-color: #eaa454;
-  box-shadow: 0 0 10px rgba(234, 164, 84, 1);
-}
-.ball-yellow {
-  background-color: #f6ea71;
-  box-shadow: 0 0 10px rgba(246, 234, 113, 1);
-}
-.ball-lemon {
-  background-color: #f6ea71;
-  box-shadow: 0 0 10px rgba(246, 234, 113, 1);
-}
-.ball-white {
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 1);
-}
-
-.ball-orange.b1 {
-  left: 36%;
-  top: 50%;
-}
-.ball-orange.b2 {
-  left: 42%;
-  top: 49.5%;
-}
-.ball-orange.b3 {
-  left: 47%;
-  top: 49.2%;
-}
-.ball-orange.b4 {
-  left: 52%;
-  top: 49%;
-}
-.ball-orange.b5 {
-  left: 57%;
-  top: 48.5%;
-}
-.ball-orange.b6 {
-  left: 62%;
-  top: 47.5%;
-}
-
-.ball-lemon.b1 {
-  left: 36%;
-  top: 56%;
-}
-.ball-lemon.b2 {
-  left: 41.5%;
-  top: 56.3%;
-}
-.ball-lemon.b3 {
-  left: 47%;
-  top: 56.5%;
-}
-.ball-lemon.b4 {
-  left: 52%;
-  top: 56.6%;
-}
-.ball-lemon.b5 {
-  left: 57%;
-  top: 56.7%;
-}
-.ball-lemon.b6 {
-  left: 62%;
-  top: 56.6%;
-}
-
-.ball-yellow.b1 {
-  left: 36%;
-  top: 61.5%;
-}
-.ball-white.b2 {
-  left: 42%;
-  top: 61.2%;
-}
-.ball-yellow.b3 {
-  left: 47%;
-  top: 60.8%;
-}
-.ball-white.b4 {
-  left: 52%;
-  top: 60.4%;
-}
-.ball-yellow.b5 {
-  left: 57%;
-  top: 59.9%;
-}
-.ball-white.b6 {
-  left: 62%;
-  top: 59.3%;
 }
 
 .top {
