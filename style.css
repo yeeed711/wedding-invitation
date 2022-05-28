@@ -1,14 +1,5 @@
 @import url("https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css");
 
-/* @keyframes wind {
-  0% {
-    transform: rotate(-10deg);
-  }
-  100% {
-    transform: rotate(10deg);
-  }
-} */
-
 @keyframes dugeen {
   0% {
     transform: scale(0.9);
@@ -17,24 +8,6 @@
     transform: scale(1.2);
   }
 }
-
-/* @keyframes swing {
-  0% {
-    transform: rotate(-3deg);
-  }
-  100% {
-    transform: rotate(3deg);
-  }
-} */
-/* 
-@keyframes dance {
-  0% {
-    transform: skew(-2deg);
-  }
-  100% {
-    transform: skew(2deg);
-  }
-} */
 
 body,
 ul,
@@ -106,28 +79,6 @@ section.cover {
   overflow: hidden;
 }
 
-/* .green {
-  display: none;
-  position: fixed;
-  width: 30%;
-  animation-name: wind;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-} */
-
-/* .green-top {
-  left: 0;
-  top: 0;
-  transform-origin: left top;
-} */
-
-/* .green-bottom {
-  right: 0;
-  bottom: 0;
-  transform-origin: right bottom;
-} */
-
 .date h1 {
   font-size: 2.2rem;
 }
@@ -135,11 +86,6 @@ section.cover {
 .date p {
   font-size: 0.8rem;
   color: #d95959;
-  /* 보라색 맘에안듬 뭐로바꾸지? */
-}
-
-.date-green {
-  margin-top: 1rem;
 }
 
 .date-calendar {
@@ -189,10 +135,6 @@ section.cover {
   border-radius: 50%;
 }
 
-.weddinghall p {
-  padding-bottom: 10px;
-}
-
 .normal h1 {
   color: #794000;
   margin-bottom: 2rem;
@@ -218,6 +160,19 @@ section.cover {
 
 .normal p.main {
   margin-bottom: 3rem;
+}
+
+.weddinghall p {
+  padding-bottom: 10px;
+}
+
+.weddinghall-title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.weddinghall-time {
+  font-size: 0.8em;
 }
 
 /* 여기가 네브 */
@@ -262,28 +217,13 @@ section.cover {
 }
 
 .nav ul li.bundang:before {
-  background-color: #f99d1c;
-}
-.nav ul li.line2:before {
-  background-color: #00a44a;
+  background-color: #f9c51c;
 }
 
-.weddinghall-title {
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
-}
-
-.weddinghall-time {
-  font-size: 0.8em;
-}
-
-.top {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transform: translateY(-21%);
+.footer_title {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
 }
 
 @media (min-width: 790px) {
@@ -299,8 +239,5 @@ section.cover {
   .l-main {
     margin-left: 550px;
     max-width: 550px;
-  }
-  section.last {
-    display: none;
   }
 }
