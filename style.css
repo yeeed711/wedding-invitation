@@ -1,17 +1,5 @@
 @import url("https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css");
 
-<<<<<<< HEAD
-=======
-/* @keyframes wind {
-  0% {
-    transform: rotate(-10deg);
-  }
-  100% {
-    transform: rotate(10deg);
-  }
-} */
-
->>>>>>> ef2595a22def4a3341b42f296a0a7a96e41cb515
 @keyframes dugeen {
   0% {
     transform: scale(0.9);
@@ -21,27 +9,6 @@
   }
 }
 
-<<<<<<< HEAD
-=======
-/* @keyframes swing {
-  0% {
-    transform: rotate(-3deg);
-  }
-  100% {
-    transform: rotate(3deg);
-  }
-} */
-/* 
-@keyframes dance {
-  0% {
-    transform: skew(-2deg);
-  }
-  100% {
-    transform: skew(2deg);
-  }
-} */
-
->>>>>>> ef2595a22def4a3341b42f296a0a7a96e41cb515
 body,
 ul,
 h1,
@@ -112,31 +79,6 @@ section.cover {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-=======
-/* .green {
-  display: none;
-  position: fixed;
-  width: 30%;
-  animation-name: wind;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-} */
-
-/* .green-top {
-  left: 0;
-  top: 0;
-  transform-origin: left top;
-} */
-
-/* .green-bottom {
-  right: 0;
-  bottom: 0;
-  transform-origin: right bottom;
-} */
-
->>>>>>> ef2595a22def4a3341b42f296a0a7a96e41cb515
 .date h1 {
   font-size: 2.2rem;
 }
@@ -144,14 +86,6 @@ section.cover {
 .date p {
   font-size: 0.8rem;
   color: #d95959;
-<<<<<<< HEAD
-=======
-  /* 보라색 맘에안듬 뭐로바꾸지? */
-}
-
-.date-green {
-  margin-top: 1rem;
->>>>>>> ef2595a22def4a3341b42f296a0a7a96e41cb515
 }
 
 .date-calendar {
@@ -201,10 +135,6 @@ section.cover {
   border-radius: 50%;
 }
 
-.weddinghall p {
-  padding-bottom: 10px;
-}
-
 .normal h1 {
   color: #794000;
   margin-bottom: 2rem;
@@ -232,7 +162,6 @@ section.cover {
   margin-bottom: 3rem;
 }
 
-<<<<<<< HEAD
 .weddinghall p {
   padding-bottom: 10px;
 }
@@ -246,8 +175,6 @@ section.cover {
   font-size: 0.8em;
 }
 
-=======
->>>>>>> ef2595a22def4a3341b42f296a0a7a96e41cb515
 /* 여기가 네브 */
 .nav {
   font-size: 1rem;
@@ -293,29 +220,10 @@ section.cover {
   background-color: #f9c51c;
 }
 
-<<<<<<< HEAD
 .footer_title {
   text-align: center;
   font-size: 0.8rem;
   padding-bottom: 0.5rem;
-=======
-.weddinghall-title {
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
-}
-
-.weddinghall-time {
-  font-size: 0.8em;
-}
-
-.top {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transform: translateY(-21%);
->>>>>>> ef2595a22def4a3341b42f296a0a7a96e41cb515
 }
 
 @media (min-width: 790px) {
