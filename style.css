@@ -160,15 +160,18 @@ section.cover {
 
 .normal p.main {
   margin-bottom: 3rem;
+  word-break: keep-all;
 }
 
 .weddinghall p {
   padding-bottom: 10px;
+  word-break: keep-all;
 }
 
 .weddinghall-title {
   font-size: 1.4rem;
   margin-bottom: 1rem;
+  word-break: keep-all;
 }
 
 .weddinghall-time {
@@ -198,6 +201,7 @@ section.cover {
 
 .nav ul {
   font-size: 0.9rem;
+  word-break: keep-all;
 }
 
 .nav ul li {
